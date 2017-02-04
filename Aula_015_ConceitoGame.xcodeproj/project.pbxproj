@@ -15,6 +15,10 @@
 		43F998881E454F82002AB4FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F998861E454F82002AB4FD /* Main.storyboard */; };
 		43F9988A1E454F83002AB4FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F998891E454F83002AB4FD /* Assets.xcassets */; };
 		43F9988D1E454F83002AB4FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F9988B1E454F83002AB4FD /* LaunchScreen.storyboard */; };
+		43F998981E4551BB002AB4FD /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F998941E4551BB002AB4FD /* bullet.png */; };
+		43F998991E4551BB002AB4FD /* espaco.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F998951E4551BB002AB4FD /* espaco.png */; };
+		43F9989A1E4551BB002AB4FD /* espaco2.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F998961E4551BB002AB4FD /* espaco2.png */; };
+		43F9989B1E4551BB002AB4FD /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F998971E4551BB002AB4FD /* player.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		43F998891E454F83002AB4FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43F9988C1E454F83002AB4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43F9988E1E454F83002AB4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F998941E4551BB002AB4FD /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		43F998951E4551BB002AB4FD /* espaco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = espaco.png; sourceTree = "<group>"; };
+		43F998961E4551BB002AB4FD /* espaco2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = espaco2.png; sourceTree = "<group>"; };
+		43F998971E4551BB002AB4FD /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +68,14 @@
 		43F9987B1E454F82002AB4FD /* Aula_015_ConceitoGame */ = {
 			isa = PBXGroup;
 			children = (
+				43F998941E4551BB002AB4FD /* bullet.png */,
+				43F998951E4551BB002AB4FD /* espaco.png */,
+				43F998961E4551BB002AB4FD /* espaco2.png */,
+				43F998971E4551BB002AB4FD /* player.png */,
 				43F9987C1E454F82002AB4FD /* AppDelegate.swift */,
 				43F9987E1E454F82002AB4FD /* GameScene.sks */,
-				43F998801E454F82002AB4FD /* Actions.sks */,
 				43F998821E454F82002AB4FD /* GameScene.swift */,
+				43F998801E454F82002AB4FD /* Actions.sks */,
 				43F998841E454F82002AB4FD /* GameViewController.swift */,
 				43F998861E454F82002AB4FD /* Main.storyboard */,
 				43F998891E454F83002AB4FD /* Assets.xcassets */,
@@ -105,6 +117,7 @@
 				TargetAttributes = {
 					43F998781E454F82002AB4FD = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3XU35YZPYQ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -133,9 +146,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				43F998881E454F82002AB4FD /* Main.storyboard in Resources */,
+				43F998981E4551BB002AB4FD /* bullet.png in Resources */,
+				43F9989B1E4551BB002AB4FD /* player.png in Resources */,
 				43F9987F1E454F82002AB4FD /* GameScene.sks in Resources */,
+				43F9989A1E4551BB002AB4FD /* espaco2.png in Resources */,
 				43F9988A1E454F83002AB4FD /* Assets.xcassets in Resources */,
 				43F9988D1E454F83002AB4FD /* LaunchScreen.storyboard in Resources */,
+				43F998991E4551BB002AB4FD /* espaco.png in Resources */,
 				43F998811E454F82002AB4FD /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3XU35YZPYQ;
 				INFOPLIST_FILE = Aula_015_ConceitoGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.quaddro.com.Aula-015-ConceitoGame";
@@ -284,6 +302,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3XU35YZPYQ;
 				INFOPLIST_FILE = Aula_015_ConceitoGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.quaddro.com.Aula-015-ConceitoGame";
